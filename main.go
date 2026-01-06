@@ -177,8 +177,8 @@ func generateTweetWithAI(apiKey, provider string, recentTweets []string) (string
 Your tweets should:
 - Be engaging and spark conversation
 - Mix humor with technical insights
+- NO hashtags - write naturally without any hashtags
 - Stay under 280 characters
-- No hashtags
 - Alternate between humorous and serious/thoughtful content
 - Cover topics like: coding, debugging, dev life, tech trends, game dev, programming languages, DevOps, architecture, best practices
 
@@ -186,7 +186,7 @@ Tone variations:
 - Humorous: Funny observations, memes in text form, relatable developer struggles
 - Serious: Technical insights, career advice, industry trends, best practices
 
-Generate ONE tweet only. No quotes around it. Just the tweet text.
+Generate ONE tweet only. No quotes around it. Just the tweet text. NO HASHTAGS.
 
 IMPORTANT: The user's recent tweets will be provided. You MUST generate something completely different in topic, style, or perspective. Avoid repeating similar jokes, themes, or observations.`
 
